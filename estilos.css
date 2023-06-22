@@ -1,0 +1,20 @@
+*{
+  font-family: 'Sen', sans-serif;
+  font-weight: 100;
+
+}
+
+body{
+  background: radial-gradient(circle, #fff, #bbb);
+  padding: 20px;
+}
+
+.gird-container{
+  display: grid;
+  grid-template-columns: 150px 150px 1fr;
+  grid-template-rows: 150px 150px 150px;
+}
+.gird-item{
+  border: 2px solid #000;
+}
+ 
